@@ -1,0 +1,455 @@
+
+html,body{
+    overflow-x: hidden;
+}
+.load{
+	padding: 22%;
+	width: 100%;
+	height: 1000px;
+	background: #000;
+	position: fixed;
+	z-index: 10000;
+	text-align: center;
+}
+a.slide{
+    cursor: pointer;
+}
+
+.index-banner{
+	background: url(../images/index-banner.png) no-repeat 0 0 fixed;
+}
+.index-com,
+.index-foot{
+	background:url(../images/bg_homeabout.jpg) no-repeat;
+}
+.index-serve{
+	background: url(../images/index-banner.png) no-repeat 0 0 fixed;
+}
+.index-com,
+.index-banner,
+.index-serve,
+.index-foot{
+	background-size: cover;
+	padding: 56px;
+}
+.navbar-brand{
+	padding: 0;
+}
+.navbar-brand >img{
+	width: 196px;
+}
+ul.nav{
+	display: table;
+	float: none;
+	margin: 0 auto;
+
+
+}
+
+ul.nav >li{
+	font-size: 20px;
+	font-weight: bold;
+}
+@media screen and (min-width: 768px){
+	ul.nav >li >a{
+		float: left;
+
+    }
+
+}
+@media screen and (max-width: 768px){
+	.navbar-header >a.navbar-brand{
+			display: block!important;
+		}
+	ul.nav >a.navbar-brand{
+		display: none!important;
+	}
+    .index-main-title >p{
+        font-size: 24px;
+    }
+    .index-main-title{
+        letter-spacing: 0;
+    }
+}
+ul.nav >li >span{
+	display: block;
+	float: left;
+	padding-top:10px;
+	color: #BDBDBD;
+}
+.index-main-title{
+	font-family: huawen;
+	margin-top: 176px;
+	letter-spacing:10px;
+}
+.index-main-title >h2{
+	color: #FFFCFF;
+	font-size: 55px;
+}
+.index-main-title >p{
+	margin-top: 30px;
+	color: #FFFCFF;
+	font-size: 44px;
+}
+.index-com-title >span,
+.index-serve-title >span,
+.index-foot-title >span{
+	font-size: 20px;
+}
+.index-com-title >h2,
+.index-serve-title >h2,
+.index-foot-title >h2{
+	font-size: 44px;
+	padding: 0;
+	margin: 5px;
+}
+.index-main-title >h2,
+.index-main-title >p,
+.index-com-title >h2,
+.index-serve-title >h2,
+.index-foot-title >h2{
+	font-weight: bold;
+}
+.index-banner-slide{
+	margin-top: 13%; 	
+
+}
+.index-banner-slide >a{
+	margin: 0 auto;
+	display: block;
+	width: 51px;
+	height: 105px;
+	background: url(../images/ico-1.png) no-repeat; 
+}
+div.padding-clear{
+    min-height: 562px;
+}
+div.padding-clear div{
+	padding: 0;
+	margin-top: 50px;
+}
+.index-com-big{
+}
+.index-com-l,
+.index-com-r{
+	text-align: center;
+    width: 50%;
+    height: 562px;
+	float: left;
+}
+
+span.num{
+	display: block;
+	width: 57px;
+	height: 57px;
+	font-size: 3em;
+	background: #5B76A3;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+span.line{
+	margin: 20px 0;
+	display: block;
+	border: 3px solid #5B76A3;
+
+}
+span.line i{
+	margin: -10px 0 0 45%;
+	float: left;
+	background: #5B76A3;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+.index-com-l >p,
+.index-com-r >p{
+	margin: 20px 16%;
+	padding: 60% 26%;
+	font-size: 28px;
+	width: 75%;
+	height: 432px;
+	background: #5B76A3;
+	border-radius: 5px;
+	color: #FEFFFF;
+	text-align: center;
+	-webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+.index-com-details,
+.index-serve-details,
+.index-foot-details{
+	margin: 100px 0 0;
+}
+.index-com-details a,
+.index-serve-details a,
+.index-foot-details a{
+	text-decoration: underline;
+	font-size: 40px;
+	font-weight: bold;
+}
+.index-com-details a,
+.index-foot-details a{
+	color: #5B76A3;
+}
+.index-serve-details a{
+	color: #FFFBFF;
+}
+.index-serve-title >h2,
+.index-serve-title >span{
+	color: #FFFBFF;
+}
+.index-serve-title{
+	margin-bottom: 70px; 
+}
+.index-serve-l,
+.index-serve-r{
+	height: 550px;
+	padding-left: 0;
+	margin-top: 10px;
+}
+.index-serve-tally >h3,
+.index-serve-annual >h3,
+.index-serve-pay >h3{
+	width: 100%;
+	font: normal normal bold 24px/1em "微软雅黑",sans-serif;
+	background: rgba(0,0,0,0.8);
+	color: #fffeff;
+	letter-spacing: 10px;
+	text-align: center;
+	float: left;
+	margin:0;
+}
+
+.index-serve-annual >h3,
+.index-serve-tally >h3{
+	padding: 18px 0;
+}
+.index-serve-pay >h3{
+	padding: 30px 0;
+	font-size: 30px;
+}
+.index-serve-tally a,
+.index-serve-annual a,
+.index-serve-pay a{
+	text-decoration: none;
+}
+.index-serve-div{
+	height: 100%;
+	display: none;
+}
+.index-serve-tally{
+	background: url(../images/tally.png) no-repeat;
+}
+
+.index-serve-annual{
+	background: url(../images/annual.png) no-repeat;
+	margin-top: 3%;
+}
+.index-serve-pay{
+	cursor: pointer;
+	height: 100%;
+	background: url(../images/pay.png) no-repeat;
+	background-size: cover;
+}
+.index-serve-tally,
+.index-serve-annual{
+	cursor: pointer;
+	height: 49%;
+	background-size: cover;
+}
+.index-hide{
+	padding-top:100px; 
+	color: #fffeff;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+}
+
+.index-serve-pay .index-hide{
+	padding-top:200px;
+}
+.index-hide >span{
+	display: block;
+	text-align: center;
+	font-size: 26px;
+	margin: 0 auto;
+	width: 130px;
+	border: 2px solid #fffeff;
+	border-radius: 5px;
+	padding: 10px;
+	transition: all 0.5s;
+}
+.index-hide >i{
+	display: block;
+    margin-top: 22px;
+
+}
+
+.index-serve-tally a:hover .index-hide >span,
+.index-serve-annual a:hover .index-hide >span,
+.index-serve-pay a:hover .index-hide >span{
+	
+	border: 2px solid #33B2C8;;
+	
+}
+.index-foot-content{
+	margin: 100px 0;
+}
+.index-foot-content p{
+	font: normal normal bold 38px/2em "微软雅黑",sans-serif;
+	letter-spacing: 10px;
+}
+.index-foot-bigCircle{
+	margin: 0 auto;
+	border: 5px solid #5B76A3;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.index-foot-bigCircle h3{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: #5B76A3;
+	margin:0;
+	font: normal normal bold 38px/2em "微软雅黑",sans-serif;
+	padding: 17% 29%;
+	letter-spacing: 10px;
+	color: #fffeff;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.index-foot-bigCircle:hover{
+	border: 5px solid #33B2C8;
+}
+.index-foot-bigCircle h3:hover{
+	background: #33B2C8;
+}
+.sos,.com{
+    display: none;
+}
+/****list-开始***/
+div.list-menuTow hr{
+    clear: both;
+    border-top: 1px solid #000;
+}
+div.list-menuTow ul{
+    list-style: none;
+    padding: 25px;
+
+}
+div.list-menuTow ul li{
+    float: left;
+    font: normal normal bold 20px/1em "微软雅黑",sans-serif;
+    margin-top: 10px;
+
+    padding-bottom: 15px;
+}
+div.list-menuTow ul li >a{
+    padding: 0 7px;
+    color: #020100;
+}
+div.list-title h2{
+    text-align: center;
+    font: normal normal bold 40px/1em "微软雅黑",sans-serif;
+    margin: 50px 0;
+    letter-spacing: 6px;
+}
+div.list-img >img{
+    width: 100%;
+    transition: 0.5s;
+}
+div.list-img{
+    overflow: hidden;
+}
+
+.list-box{
+    background: #FFFCFF;
+    margin-top: 20px;
+    border-radius: 7px;
+    transition: 0.5s;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.19);
+}
+.list-box:hover{
+
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.29);
+}
+.list-box:hover div.list-img >img{
+    -webkot-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.list-box a span{
+    display: block;
+    width: 100px;
+    /*padding: 7px;*/
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.list-box a{
+    text-decoration: none;
+}
+.list-box a span:hover{
+    text-decoration: underline;
+}
+.list-bottom >h3{
+    margin: 0;
+}
+.list-box a >.list-bottom{
+    width: 100%;
+
+    padding: 30px 0 30px 30px;
+    color: #000;
+    border-top: none;
+    line-height: 3em;
+}
+footer.list-foot{
+    margin-top: 100px;
+    background: #D8FBFF;
+    padding: 40px 0;
+}
+footer.list-foot h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer.list-foot ul{
+    list-style: none;
+    padding: 0;
+}
+footer.list-foot ul li{
+    margin-top: 10px;
+}
+footer.list-foot ul li >a{
+    color: #898B8E;
+    font-size: 16px;
+    font-weight: bold;
+}
+@media screen and (min-width: 768px){
+    footer.list-foot .container .row >div{
+        width: 20%;
+    }
+}
+
+footer.list-foot div.cop{
+    text-align: center;
+    font: normal normal bold 16px/1em "微软雅黑",sans-serif;
+    margin-top: 30px;
+    
+}
+footer.list-foot div.cop >a{
+    color: #000;
+}
+
+/****list*结束***/
